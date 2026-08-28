@@ -3,7 +3,7 @@ services:
   backend:
     build:
       context: .
-      Dockerfile: Dockerfile
+      dockerfile: Dockerfile
 
     container_name: new_glass_backend
 
@@ -22,7 +22,7 @@ services:
   frontend:
     build:
       context: .
-      Dockerfile: Dockerfile
+      dockerfile: Dockerfile
 
     container_name: new_glass_frontend
 
