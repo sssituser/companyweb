@@ -3,7 +3,7 @@ services:
   back_web:
     build:
       context: ./back_web
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.b
 
     container_name: new_glass_backend
 
