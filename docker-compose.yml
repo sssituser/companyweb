@@ -1,6 +1,6 @@
 services:
 
-  backend:
+  back_web:
     build:
       context: .
       dockerfile: Dockerfile
@@ -19,7 +19,7 @@ services:
     restart: unless-stopped
 
 
-  frontend:
+  front_web:
     build:
       context: .
       dockerfile: Dockerfile
